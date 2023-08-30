@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+    <changeSet id="10" author="praveen">
+        <insert tableName="points_table">
+            <column name="team_id" value="1"></column>
+            <column name="referee_id" value="501"></column>
+            <column name="round_1" value="9"></column>
+            <column name="round_2" value="7"></column>
+            <column name="round_3" value="9"></column>
+            <column name="avg_points" value="8.3"></column>
+        </insert>
+        <insert tableName="points_table">
+            <column name="team_id" value="2"></column>
+            <column name="referee_id" value="505"></column>
+            <column name="round_1" value="8"></column>
+            <column name="round_2" value="8"></column>
+            <column name="round_3" value="10"></column>
+            <column name="avg_points" value="8.6"></column>
+        </insert>
+        <insert tableName="points_table">
+            <column name="team_id" value="3"></column>
+            <column name="referee_id" value="503"></column>
+            <column name="round_1" value="10"></column>
+            <column name="round_2" value="9"></column>
+            <column name="round_3" value="8"></column>
+            <column name="avg_points" value="9"></column>
+        </insert>
+        <insert tableName="points_table">
+            <column name="team_id" value="4"></column>
+            <column name="referee_id" value="509"></column>
+            <column name="round_1" value="10"></column>
+            <column name="round_2" value="10"></column>
+            <column name="round_3" value="9"></column>
+            <column name="avg_points" value="9.6"></column>
+        </insert>
+        <insert tableName="points_table">
+            <column name="team_id" value="5"></column>
+            <column name="referee_id" value="507"></column>
+            <column name="round_1" value="9"></column>
+            <column name="round_2" value="10"></column>
+            <column name="round_3" value="9"></column>
+            <column name="avg_points" value="9"></column>
+        </insert>
+        <insert tableName="points_table">
+            <column name="team_id" value="6"></column>
+            <column name="referee_id" value="505"></column>
+            <column name="round_1" value="7"></column>
+            <column name="round_2" value="10"></column>
+            <column name="round_3" value="9"></column>
+            <column name="avg_points" value="8.6"></column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

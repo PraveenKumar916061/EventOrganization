@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+    <changeSet id="9" author="praveen">
+        <insert tableName="referee">
+            <column name="referee_name" value="Rahul Choudary"></column>
+            <column name="event_id" value="304"></column>
+        </insert>
+        <insert tableName="referee">
+            <column name="referee_name" value="Rajesh"></column>
+            <column name="event_id" value="306"></column>
+        </insert>
+        <insert tableName="referee">
+            <column name="referee_name" value="VVS Laxman"></column>
+            <column name="event_id" value="302"></column>
+        </insert>
+        <insert tableName="referee">
+            <column name="referee_name" value="Pragnanandh"></column>
+            <column name="event_id" value="308"></column>
+        </insert>
+        <insert tableName="referee">
+            <column name="referee_name" value="Venky"></column>
+            <column name="event_id" value="300"></column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

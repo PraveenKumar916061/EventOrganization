@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+    <changeSet id="7" author="praveen">
+        <insert tableName="team">
+            <column name="team_name" value="Royal Bulls"></column>
+            <column name="description" value="Hiii"></column>
+            <column name="event_id" value="304"></column>
+        </insert>
+        <insert tableName="team">
+            <column name="team_name" value="Kings IX"></column>
+            <column name="description" value="Hello"></column>
+            <column name="event_id" value="302"></column>
+        </insert>
+        <insert tableName="team">
+            <column name="team_name" value="Warriors"></column>
+            <column name="description" value="joining"></column>
+            <column name="event_id" value="306"></column>
+        </insert>
+        <insert tableName="team">
+            <column name="team_name" value="Mech Rocks"></column>
+            <column name="description" value="Good Team"></column>
+            <column name="event_id" value="300"></column>
+        </insert>
+        <insert tableName="team">
+            <column name="team_name" value="Epic failures"></column>
+            <column name="description" value=""></column>
+            <column name="event_id" value="308"></column>
+        </insert>
+        <insert tableName="team">
+            <column name="team_name" value="Village idiots"></column>
+            <column name="description" value=""></column>
+            <column name="event_id" value="302"></column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

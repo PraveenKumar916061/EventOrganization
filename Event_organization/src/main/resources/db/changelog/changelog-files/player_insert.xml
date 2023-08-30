@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd
+      http://www.liquibase.org/xml/ns/pro
+      http://www.liquibase.org/xml/ns/pro/liquibase-pro-4.1.xsd">
+    <changeSet id="8" author="praveen">
+        <insert tableName="player">
+            <column name="player_name" value="Praveen kumar"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Sai Ganapathi"></column>
+            <column name="phone_no" value="9160614290"></column>
+            <column name="email" value="praveen@gmail.com"></column>
+            <column name="team_id" value="2"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Pavan Srivastav"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Sai Ganapathi"></column>
+            <column name="phone_no" value="9876543210"></column>
+            <column name="email" value="pavansrivastav@gmail.com"></column>
+            <column name="team_id" value="2"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="KVS Praveen"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Sai Ganapathi"></column>
+            <column name="phone_no" value="6300053534"></column>
+            <column name="email" value="konathalap@gmail.com"></column>
+            <column name="team_id" value="2"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Kumar Vardhan"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Sai Ganapathi"></column>
+            <column name="phone_no" value="9980053534"></column>
+            <column name="email" value="vardhanp@gmail.com"></column>
+            <column name="team_id" value="2"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="T Vinay Kumar"></column>
+            <column name="age" value="45"></column>
+            <column name="college_name" value="Sai Ganapathi"></column>
+            <column name="phone_no" value="9346053534"></column>
+            <column name="email" value="vinay@gmail.com"></column>
+            <column name="team_id" value="2"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Pavan Kanlyan"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Sri Chaitanya"></column>
+            <column name="phone_no" value="8765432190"></column>
+            <column name="email" value="kalyan@gmail.com"></column>
+            <column name="team_id" value="1"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Appala Raju"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Sri Chaitanya"></column>
+            <column name="phone_no" value="7654321098"></column>
+            <column name="email" value="raju@gmail.com"></column>
+            <column name="team_id" value="1"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Suresh K"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Sri Chaitanya"></column>
+            <column name="phone_no" value="6354321098"></column>
+            <column name="email" value="suresh@gmail.com"></column>
+            <column name="team_id" value="1"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Madhu Sudhan"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Sri Chaitanya"></column>
+            <column name="phone_no" value="7344621098"></column>
+            <column name="email" value="madhu@gmail.com"></column>
+            <column name="team_id" value="1"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Venkatesh"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Sri Chaitanya"></column>
+            <column name="phone_no" value="9955621098"></column>
+            <column name="email" value="venkatesh@gmail.com"></column>
+            <column name="team_id" value="1"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Dinesh"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Gayathri"></column>
+            <column name="phone_no" value="7754321098"></column>
+            <column name="email" value="dinesh@gmail.com"></column>
+            <column name="team_id" value="5"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Bharath"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Gayathri"></column>
+            <column name="phone_no" value="9754621098"></column>
+            <column name="email" value="bharath@gmail.com"></column>
+            <column name="team_id" value="5"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Prasanna Kumar"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Gayathri"></column>
+            <column name="phone_no" value="8854621098"></column>
+            <column name="email" value="prasanraj@gmail.com"></column>
+            <column name="team_id" value="5"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Hari Haran"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Gayathri"></column>
+            <column name="phone_no" value="8988721098"></column>
+            <column name="email" value="hariharan@gmail.com"></column>
+            <column name="team_id" value="5"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Ramesh"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Gayathri"></column>
+            <column name="phone_no" value="7768721098"></column>
+            <column name="email" value="ramesh@gmail.com"></column>
+            <column name="team_id" value="5"></column>
+        </insert>
+
+        <insert tableName="player">
+            <column name="player_name" value="Praveen Naidu"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Raghu"></column>
+            <column name="phone_no" value="8801621098"></column>
+            <column name="email" value="naidu@gmail.com"></column>
+            <column name="team_id" value="6"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Niranjan"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Raghu"></column>
+            <column name="phone_no" value="9101971098"></column>
+            <column name="email" value="niranjan@gmail.com"></column>
+            <column name="team_id" value="6"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Vinay Varma"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Raghu"></column>
+            <column name="phone_no" value="7703471098"></column>
+            <column name="email" value="varma@gmail.com"></column>
+            <column name="team_id" value="6"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Yeswanth"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Raghu"></column>
+            <column name="phone_no" value="7903471098"></column>
+            <column name="email" value="yeswanth@gmail.com"></column>
+            <column name="team_id" value="6"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Santhosh"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Raghu"></column>
+            <column name="phone_no" value="9123471098"></column>
+            <column name="email" value="snatosh@gmail.com"></column>
+            <column name="team_id" value="6"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Usha Rani"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Bullayya"></column>
+            <column name="phone_no" value="9993471098"></column>
+            <column name="email" value="usharani@gmail.com"></column>
+            <column name="team_id" value="3"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Maha Lakshmi"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Bullayya"></column>
+            <column name="phone_no" value="8893471098"></column>
+            <column name="email" value="mahalakshmi@gmail.com"></column>
+            <column name="team_id" value="3"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Prasanna"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Bullayya"></column>
+            <column name="phone_no" value="8856771098"></column>
+            <column name="email" value="prasanna@gmail.com"></column>
+            <column name="team_id" value="3"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Jhansi"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Bullayya"></column>
+            <column name="phone_no" value="6336771098"></column>
+            <column name="email" value="jhansi@gmail.com"></column>
+            <column name="team_id" value="3"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Kaveri"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Bullayya"></column>
+            <column name="phone_no" value="7636771098"></column>
+            <column name="email" value="kaveri@gmail.com"></column>
+            <column name="team_id" value="3"></column>
+        </insert>
+
+        <insert tableName="player">
+            <column name="player_name" value="Nookesh"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Adithya"></column>
+            <column name="phone_no" value="8996771098"></column>
+            <column name="email" value="nookesh@gmail.com"></column>
+            <column name="team_id" value="4"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Ravi"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Adithya"></column>
+            <column name="phone_no" value="8276771098"></column>
+            <column name="email" value="ravinagala@gmail.com"></column>
+            <column name="team_id" value="4"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Shyam Sridhar"></column>
+            <column name="age" value="23"></column>
+            <column name="college_name" value="Adithya"></column>
+            <column name="phone_no" value="9996771098"></column>
+            <column name="email" value="shyam@gmail.com"></column>
+            <column name="team_id" value="4"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Sri Harsha"></column>
+            <column name="age" value="24"></column>
+            <column name="college_name" value="Adithya"></column>
+            <column name="phone_no" value="9435671098"></column>
+            <column name="email" value="harsha@gmail.com"></column>
+            <column name="team_id" value="4"></column>
+        </insert>
+        <insert tableName="player">
+            <column name="player_name" value="Laya Kishore"></column>
+            <column name="age" value="25"></column>
+            <column name="college_name" value="Adithya"></column>
+            <column name="phone_no" value="7975671098"></column>
+            <column name="email" value="kishore@gmail.com"></column>
+            <column name="team_id" value="4"></column>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
