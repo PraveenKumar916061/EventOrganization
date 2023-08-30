@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
@@ -33,6 +34,8 @@ public class PlayerServiceImp implements PlayerService{
         String collegename=null;
         List<Player> players=playerRepository.findAll();
         for(var v: players){
+            if(player.getPlayer_name().equals(v.getPlayer_name()))
+                throw new ResponseStatusException(HttpStatus.ALREADY_REPORTED,"You don't have permission to join in this team...! Already u are in different team");
             if(v.getTeam_id()==player.getTeam_id()) {
                 count++;
                 collegename = v.getCollege_name();
